@@ -6,7 +6,7 @@ function tempFunction()
     {
         for(var i = 0; i <= elem.length; i++)
         {
-            if(elem[i].getAttribute("bgcolor") == undefined)
+            if(elem[i].getAttribute("bgcolor") == undefined || elem[i].getAttribute("bgcolor") == "#ffff66")
             {
                 elem[i].remove();
             }
